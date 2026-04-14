@@ -40,28 +40,6 @@ Five stakeholders. One week. 28 SQL queries.
 **Database:** PostgreSQL  
 **Period:** 2014 – 2017  
 **Relationships:** `sales.customer_id → customer.customer_id` · `sales.product_id → product.product_id`
-
----
-
----
-
-## SQL Concepts Covered
-
-```
-INNER JOIN, LEFT JOIN         — 2 and 3 table joins
-GROUP BY + aggregates         — SUM, AVG, COUNT, ROUND
-HAVING vs WHERE               — filtering aggregated results
-CASE WHEN                     — conditional classification
-CTEs with WITH                — multi-step calculations
-Subqueries                    — nested queries
-RANK(), DENSE_RANK()          — window functions
-PARTITION BY                  — ranking within groups
-LAG()                         — year over year comparisons
-EXTRACT()                     — date part extraction
-DATE_TRUNC()                  — date truncation
-
-```
-
 ---
 
 ## Key Business Insights
@@ -88,8 +66,6 @@ DATE_TRUNC()                  — date truncation
 
 ---
 
----
-
 ## Tools Used
 
 | Tool | Purpose |
@@ -105,5 +81,4 @@ DATE_TRUNC()                  — date truncation
 
 > Tableau Public dashboard coming soon.
 ---
-
 *This project was built as a portfolio piece to demonstrate real-world SQL analytics skills across customer, product, regional and financial analysis domains.*
